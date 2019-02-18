@@ -107,7 +107,7 @@ averageHeightPokemon.innerHTML = `<div class ="averageWeightPokemonText">The ave
 
 const printPokemon = (name, img, quality) => {
   let resultPokemonPrint = `<div class="filterCard"><h1>${name}</h1>
-   <div><img src=${img}></div>
+   <div><img class="filterimg" src=${img}></div>
    <p class='quality'> ${quality}</p></div>`;
   printPokemonFilter.insertAdjacentHTML("beforeend", resultPokemonPrint);
 };
