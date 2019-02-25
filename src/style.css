@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+
+
 :root {
   background: #2980B9;
 }
@@ -11,6 +13,8 @@
 .show {
   display: contents;
 }
+
+
 
 body {
   margin: 0;
@@ -201,9 +205,12 @@ p {
 
 }
 
-.containterPokemon, .container-Stadistics {
+.containterPokemon,  {
   min-height: 120rem;
   text-align: center;
+}
+.container-Stadistics{
+  min-height: 5rem;
 }
 
 .typeCard {
